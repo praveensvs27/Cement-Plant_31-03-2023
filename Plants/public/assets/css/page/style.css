@@ -1,0 +1,18 @@
+#main_table th {
+    vertical-align: text-top;
+    padding: 5px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+#main_table td {
+    vertical-align: text-top;
+    padding: 5px;
+    border-bottom: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+#main_table td:first-child,#main_table th:first-child {
+    border-left: 1px solid #dddddd;
+}
+.text-label{ color:black; }
+.text-label span{ color:red; }
